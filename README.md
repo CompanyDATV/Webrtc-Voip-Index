@@ -6,9 +6,12 @@ It uses [Janus-Gateway](https://janus.conf.meetecho.com/) produced by [Meetecho.
 
 ## How to use
 
-1. clone the repository `"git clone https://github.com/alepolidori/janus-webrtc-phone.git"`
+1. clone the repository `"git clone https://github.com/CompanyDATV/Webrtc-Voip-Index.git"`
+1. If you not have module exenstion then:
 1. run `"npm install"`
-1. open `"index.html"` into your web browser
+1. run `"npm install -S express"`
+1. run `"npm install -S nodemon"`
+1. run `"npm start"` into your web browser
 
 ## Functions
 
@@ -20,7 +23,7 @@ It uses [Janus-Gateway](https://janus.conf.meetecho.com/) produced by [Meetecho.
 
 ## Requirements
 
-Since it is a client demo, it requires a VoIP PBX backend to interact with other extensions. You can easily install one of your own using [NethServer VoIP PBX](http://docs.nethserver.org/en/v7/freepbx.html): follow this [guide.](https://github.com/alepolidori/howto-nethserver-voip-pbx/blob/master/README.md)
+Since it is a client demo, it requires a VoIP PBX backend to interact with other extensions. You can easily install one of your own using [NethServer VoIP PBX](http://docs.nethserver.org/en/v7/freepbx.html): follow this [guide.](https://github.com/CompanyDATV/Webrtc-Voip-Index#readme)
 
 
 
